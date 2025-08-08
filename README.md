@@ -40,7 +40,7 @@ project/
 
 - Python 3.8+
 - MySQL Server
-- Pip packages: `pymysql`, `pyyaml`
+- Pip packages: `pymysql`, `pyyaml`, `tqdm`
 
 Instala dependencias:
 ```bash
