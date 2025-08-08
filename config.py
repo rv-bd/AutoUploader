@@ -12,10 +12,10 @@ LOG_FOLDER = "logs"
 MAX_BATCH_SIZE = 5000
 
 DB_CONFIG = {
-    "host": "dmsdwh.mysql.database.azure.com",
-    "user": "rveloz",
-    "password": "recarg4684##",
-    "database": "rveloz",
+    "host": "",
+    "user": "",
+    "password": "",
+    "database": "",
     "port": 3306
 }
 
