@@ -1,0 +1,390 @@
+2025-08-07 10:47:33 [WARNING] Archivo no reconocido o formato incorrecto: gross_tmy_20250709.csv
+2025-08-07 10:47:33 [ERROR] Archivo movido a carpeta de errores: gross_tmy_20250709.csv
+2025-08-07 10:59:33 [WARNING] Archivo no reconocido o formato incorrecto: KPI_DEALER_RV_20250806.csv
+2025-08-07 10:59:33 [ERROR] Archivo movido a carpeta de errores: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:01:03 [WARNING] Archivo no reconocido o formato incorrecto: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:01:03 [ERROR] Archivo movido a carpeta de errores: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:03:43 [INFO] Iniciando monitor de archivos...
+2025-08-07 11:04:13 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:04:13 [WARNING] Archivo no reconocido o formato incorrecto: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:04:13 [ERROR] Archivo movido a carpeta de errores: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:08:08 [INFO] Iniciando monitor de archivos...
+2025-08-07 11:08:08 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:08:08 [WARNING] No se puede extraer la fecha del archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:08:08 [ERROR] Archivo movido a carpeta de errores: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:11:25 [INFO] Iniciando monitor de archivos...
+2025-08-07 11:11:25 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:11:25 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:11:25 [ERROR] Error procesando archivo KPI_DEALER_RV_20250806.csv: [WinError 3] El sistema no puede encontrar la ruta especificada: 'C:\\Users\\wilme\\Desktop\\FTP\\KPI_DEALER_RV_20250806.csv' -> 'C:\\Users\\wilme\\Documents\\procesados\\KPI_DEALER_RV_20250806.csv'
+2025-08-07 11:11:25 [ERROR] Archivo movido a carpeta de errores: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:13:29 [INFO] Iniciando monitor de archivos...
+2025-08-07 11:13:29 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:13:29 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:13:29 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:18:31 [INFO] Iniciando monitor de archivos...
+2025-08-07 11:18:31 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:18:31 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 11:18:31 [ERROR] Error procesando archivo KPI_DEALER_RV_20250806.csv: [WinError 183] No se puede crear un archivo que ya existe: 'C:\\Users\\wilme\\Desktop\\FTP\\KPI_DEALER_RV_20250806.csv' -> 'C:\\Users\\wilme\\Documents\\procesados\\KPI_DEALER_RV_20250806.csv'
+2025-08-07 11:18:31 [ERROR] Archivo movido a carpeta de errores: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:16:26 [INFO] Iniciando monitor de archivos...
+2025-08-07 12:16:26 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:16:26 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:16:26 [ERROR] Error procesando archivo KPI_DEALER_RV_20250806.csv: [WinError 183] No se puede crear un archivo que ya existe: 'C:\\Users\\wilme\\Desktop\\FTP\\KPI_DEALER_RV_20250806.csv' -> 'C:\\Users\\wilme\\Documents\\procesados\\KPI_DEALER_RV_20250806.csv'
+2025-08-07 12:16:26 [ERROR] Archivo movido a carpeta de errores: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:18:21 [INFO] Iniciando monitor de archivos...
+2025-08-07 12:18:21 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:18:21 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:18:21 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:19:28 [INFO] Iniciando monitor de archivos...
+2025-08-07 12:19:28 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:19:28 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:19:28 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:23:55 [INFO] Iniciando monitor de archivos...
+2025-08-07 12:23:55 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:23:55 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:23:55 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:28:21 [INFO] Iniciando monitor de archivos...
+2025-08-07 12:28:21 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:28:21 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:28:21 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:43:27 [INFO] Iniciando monitor de archivos...
+2025-08-07 12:43:27 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:43:27 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:43:27 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:45:03 [INFO] Iniciando monitor de archivos...
+2025-08-07 12:45:03 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:45:03 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:45:03 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:45:29 [INFO] Iniciando monitor de archivos...
+2025-08-07 12:45:29 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:45:29 [ERROR] Error procesando archivo KPI_DEALER_RV_20250806.csv: cannot access local variable 'columna_mysql' where it is not associated with a value
+2025-08-07 12:45:29 [ERROR] Archivo movido a carpeta de errores: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:47:00 [INFO] Iniciando monitor de archivos...
+2025-08-07 12:47:00 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:47:00 [INFO] {'columna_csv': 'PERIODO', 'columna_mysql': 'PERIODO'}
+2025-08-07 12:47:00 [ERROR] Error procesando archivo KPI_DEALER_RV_20250806.csv: cannot access local variable 'columna_mysql' where it is not associated with a value
+2025-08-07 12:47:00 [ERROR] Archivo movido a carpeta de errores: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:47:37 [INFO] Iniciando monitor de archivos...
+2025-08-07 12:47:37 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:47:37 [INFO] {'columna_csv': 'PERIODO', 'columna_mysql': 'PERIODO'}
+2025-08-07 12:47:37 [INFO] preparando borrado de la tabla: kpisdealer, tomando como llave la columna: PERIODO
+2025-08-07 12:47:37 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 12:47:37 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 14:48:07 [INFO] Detectado archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:48:07 [WARNING] Archivo no reconocido o formato incorrecto: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:48:07 [ERROR] Archivo movido a carpeta de errores: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:48:50 [INFO] Iniciando monitor de archivos...
+2025-08-07 14:49:20 [INFO] Detectado archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:49:20 [ERROR] Error procesando archivo TMY_CASHIN_BPAYMT_20250807.csv: 'utf-8' codec can't decode byte 0xdc in position 7383: invalid continuation byte
+2025-08-07 14:49:20 [ERROR] Archivo movido a carpeta de errores: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:54:01 [INFO] Iniciando monitor de archivos...
+2025-08-07 14:54:31 [INFO] Detectado archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:54:31 [ERROR] Error procesando archivo TMY_CASHIN_BPAYMT_20250807.csv: 'list' object has no attribute 'keys'
+2025-08-07 14:54:31 [ERROR] Archivo movido a carpeta de errores: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:57:22 [INFO] Iniciando monitor de archivos...
+2025-08-07 14:57:52 [INFO] Detectado archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:57:52 [ERROR] Error procesando archivo TMY_CASHIN_BPAYMT_20250807.csv: 'list' object has no attribute 'keys'
+2025-08-07 14:57:52 [ERROR] 'list' object has no attribute 'keys'
+Traceback (most recent call last):
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 92, in procesar_archivo
+    todas_las_columnas = columnas_mysql + list(columnas_calculadas.keys())
+                                               ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'keys'
+2025-08-07 14:57:52 [ERROR] Archivo movido a carpeta de errores: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:59:00 [INFO] Iniciando monitor de archivos...
+2025-08-07 14:59:30 [INFO] Detectado archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:59:31 [INFO] Borrando de 'cashin' donde cashinParticion = 202508
+2025-08-07 14:59:31 [INFO] 12814 registros insertados en tabla 'cashin' desde archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 14:59:31 [ERROR] Error ejecutando procedimiento Insert_Resumen_tmy: 1146 (42S02): Table 'isflo.pdvvendedor' doesn't exist
+2025-08-07 14:59:31 [ERROR] Error procesando archivo TMY_CASHIN_BPAYMT_20250807.csv: 1146 (42S02): Table 'isflo.pdvvendedor' doesn't exist
+2025-08-07 14:59:31 [ERROR] 1146 (42S02): Table 'isflo.pdvvendedor' doesn't exist
+Traceback (most recent call last):
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 706, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Table 'isflo.pdvvendedor' doesn't exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 165, in procesar_archivo
+    raise e
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 158, in procesar_archivo
+    execute_stored_procedure(nombre, args=(fecha_yyyymm,))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\rv\projects\AutoUploader\db.py", line 35, in execute_stored_procedure
+    cursor.callproc(procedure_name, args)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 566, in callproc
+    result = self._connection.cmd_query(
+        call, raw=self._raw, raw_as_string=self._raw_as_string
+    )
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 714, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'isflo.pdvvendedor' doesn't exist
+2025-08-07 14:59:31 [ERROR] Archivo movido a carpeta de errores: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 15:13:01 [INFO] Detectado archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 15:13:01 [INFO] Borrando de 'cashin' donde cashinParticion = 202508
+2025-08-07 15:13:02 [INFO] 12814 registros insertados en tabla 'cashin' desde archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 15:13:02 [ERROR] Error ejecutando procedimiento Insert_Resumen_tmy: 1146 (42S02): Table 'isflo.dmspdv' doesn't exist
+2025-08-07 15:13:02 [ERROR] Error procesando archivo TMY_CASHIN_BPAYMT_20250807.csv: 1146 (42S02): Table 'isflo.dmspdv' doesn't exist
+2025-08-07 15:13:02 [ERROR] 1146 (42S02): Table 'isflo.dmspdv' doesn't exist
+Traceback (most recent call last):
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 706, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Table 'isflo.dmspdv' doesn't exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 165, in procesar_archivo
+    raise e
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 158, in procesar_archivo
+    execute_stored_procedure(nombre, args=(fecha_yyyymm,))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\rv\projects\AutoUploader\db.py", line 35, in execute_stored_procedure
+    cursor.callproc(procedure_name, args)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 566, in callproc
+    result = self._connection.cmd_query(
+        call, raw=self._raw, raw_as_string=self._raw_as_string
+    )
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 714, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'isflo.dmspdv' doesn't exist
+2025-08-07 15:13:02 [ERROR] Archivo movido a carpeta de errores: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 15:14:02 [INFO] Detectado archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 15:14:02 [INFO] Borrando de 'cashin' donde cashinParticion = 202508
+2025-08-07 15:14:02 [INFO] 12814 registros insertados en tabla 'cashin' desde archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 15:14:02 [INFO] Procedimiento ejecutado: Insert_Resumen_tmy con parámetro: 202508
+2025-08-07 15:14:02 [ERROR] Error ejecutando procedimiento UpdateMicroTigoMoney: 1146 (42S02): Table 'isflo.remesas' doesn't exist
+2025-08-07 15:14:02 [ERROR] Error procesando archivo TMY_CASHIN_BPAYMT_20250807.csv: 1146 (42S02): Table 'isflo.remesas' doesn't exist
+2025-08-07 15:14:02 [ERROR] 1146 (42S02): Table 'isflo.remesas' doesn't exist
+Traceback (most recent call last):
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 706, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Table 'isflo.remesas' doesn't exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 165, in procesar_archivo
+    raise e
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 158, in procesar_archivo
+    execute_stored_procedure(nombre, args=(fecha_yyyymm,))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\rv\projects\AutoUploader\db.py", line 35, in execute_stored_procedure
+    cursor.callproc(procedure_name, args)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 566, in callproc
+    result = self._connection.cmd_query(
+        call, raw=self._raw, raw_as_string=self._raw_as_string
+    )
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 714, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1146 (42S02): Table 'isflo.remesas' doesn't exist
+2025-08-07 15:14:02 [ERROR] Archivo movido a carpeta de errores: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 15:15:02 [INFO] Detectado archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 15:15:02 [INFO] Borrando de 'cashin' donde cashinParticion = 202508
+2025-08-07 15:15:03 [INFO] 12814 registros insertados en tabla 'cashin' desde archivo: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 15:15:03 [INFO] Procedimiento ejecutado: Insert_Resumen_tmy con parámetro: 202508
+2025-08-07 15:15:03 [ERROR] Error ejecutando procedimiento UpdateMicroTigoMoney: 1055 (42000): Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'isflo.a.cashinParticion' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+2025-08-07 15:15:03 [ERROR] Error procesando archivo TMY_CASHIN_BPAYMT_20250807.csv: 1055 (42000): Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'isflo.a.cashinParticion' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+2025-08-07 15:15:03 [ERROR] 1055 (42000): Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'isflo.a.cashinParticion' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+Traceback (most recent call last):
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 706, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'isflo.a.cashinParticion' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 165, in procesar_archivo
+    raise e
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 158, in procesar_archivo
+    execute_stored_procedure(nombre, args=(fecha_yyyymm,))
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\workspace\rv\projects\AutoUploader\db.py", line 35, in execute_stored_procedure
+    cursor.callproc(procedure_name, args)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 566, in callproc
+    result = self._connection.cmd_query(
+        call, raw=self._raw, raw_as_string=self._raw_as_string
+    )
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 714, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1055 (42000): Expression #2 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'isflo.a.cashinParticion' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+2025-08-07 15:15:03 [ERROR] Archivo movido a carpeta de errores: TMY_CASHIN_BPAYMT_20250807.csv
+2025-08-07 16:21:14 [INFO] Iniciando monitor de archivos...
+2025-08-07 16:22:14 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:22:15 [ERROR] La columna 'PERIODO' indicada para borrar no se encuentra en el archivo.
+2025-08-07 16:22:15 [ERROR] Archivo movido a carpeta de errores: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:22:37 [INFO] Iniciando monitor de archivos...
+2025-08-07 16:24:37 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:24:37 [ERROR] Error procesando archivo ASIGNACION_TANGIBLES_RV_20250807.csv: insert_into_table() got an unexpected keyword argument 'insertType'. Did you mean 'insert_type'?
+2025-08-07 16:24:37 [ERROR] insert_into_table() got an unexpected keyword argument 'insertType'. Did you mean 'insert_type'?
+Traceback (most recent call last):
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 154, in procesar_archivo
+    insert_into_table(tabla, todas_las_columnas, filas_finales, batch_size=MAX_BATCH_SIZE, insertType=tipo_insercion)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: insert_into_table() got an unexpected keyword argument 'insertType'. Did you mean 'insert_type'?
+2025-08-07 16:24:37 [ERROR] Archivo movido a carpeta de errores: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:26:28 [INFO] Iniciando monitor de archivos...
+2025-08-07 16:26:28 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:26:28 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:26:28 [ERROR] Error ejecutando procedimiento sp_update_resumen_simcard2: 1305 (42000): PROCEDURE isflo.sp_update_resumen_simcard2 does not exist
+2025-08-07 16:26:28 [ERROR] Error procesando archivo ASIGNACION_TANGIBLES_RV_20250807.csv: 1305 (42000): PROCEDURE isflo.sp_update_resumen_simcard2 does not exist
+2025-08-07 16:26:28 [ERROR] 1305 (42000): PROCEDURE isflo.sp_update_resumen_simcard2 does not exist
+Traceback (most recent call last):
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 706, in cmd_query
+    self._cmysql.query(
+    ~~~~~~~~~~~~~~~~~~^
+        query,
+        ^^^^^^
+    ...<3 lines>...
+        query_attrs=self.query_attrs,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+_mysql_connector.MySQLInterfaceError: PROCEDURE isflo.sp_update_resumen_simcard2 does not exist
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 170, in procesar_archivo
+    raise e
+  File "C:\workspace\rv\projects\AutoUploader\processor.py", line 165, in procesar_archivo
+    execute_stored_procedure(nombre)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\workspace\rv\projects\AutoUploader\db.py", line 48, in execute_stored_procedure
+    cursor.callproc(procedure_name)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\cursor_cext.py", line 566, in callproc
+    result = self._connection.cmd_query(
+        call, raw=self._raw, raw_as_string=self._raw_as_string
+    )
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\opentelemetry\context_propagation.py", line 97, in wrapper
+    return method(cnx, *args, **kwargs)
+  File "C:\Users\wilme\AppData\Local\Programs\Python\Python313\Lib\site-packages\mysql\connector\connection_cext.py", line 714, in cmd_query
+    raise get_mysql_exception(
+        err.errno, msg=err.msg, sqlstate=err.sqlstate
+    ) from err
+mysql.connector.errors.ProgrammingError: 1305 (42000): PROCEDURE isflo.sp_update_resumen_simcard2 does not exist
+2025-08-07 16:26:28 [ERROR] Archivo movido a carpeta de errores: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:27:45 [INFO] Iniciando monitor de archivos...
+2025-08-07 16:27:45 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:27:45 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:27:45 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-07 16:27:45 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:54:40 [INFO] Iniciando monitor de archivos...
+2025-08-07 16:54:40 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:54:40 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:54:40 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-07 16:54:40 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:55:26 [INFO] Iniciando monitor de archivos...
+2025-08-07 16:55:26 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:55:26 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:55:26 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-07 16:55:26 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:56:38 [INFO] Iniciando monitor de archivos...
+2025-08-07 16:56:38 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:56:39 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:56:39 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-07 16:56:39 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:58:12 [INFO] Iniciando monitor de archivos...
+2025-08-07 16:58:12 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:58:13 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:58:13 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-07 16:58:13 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:59:04 [INFO] Iniciando monitor de archivos...
+2025-08-07 16:59:04 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:59:05 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 16:59:05 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-07 16:59:05 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:00:46 [INFO] Iniciando monitor de archivos...
+2025-08-07 17:00:46 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:00:46 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:00:46 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:04:04 [INFO] Iniciando monitor de archivos...
+2025-08-07 17:04:04 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:04:04 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:04:04 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:05:44 [INFO] Iniciando monitor de archivos...
+2025-08-07 17:05:44 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:05:44 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:05:44 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:08:04 [INFO] Iniciando monitor de archivos...
+2025-08-07 17:08:04 [INFO] Detectado archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:08:04 [INFO] 145 registros insertados en tabla 'kpisdealer' desde archivo: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:08:04 [INFO] Archivo procesado correctamente: KPI_DEALER_RV_20250806.csv
+2025-08-07 17:08:27 [INFO] Iniciando monitor de archivos...
+2025-08-07 17:08:27 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:08:27 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:08:27 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-07 17:08:27 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:23:15 [INFO] Iniciando monitor de archivos...
+2025-08-07 17:23:15 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:23:16 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:23:16 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-07 17:23:16 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:23:55 [INFO] Iniciando monitor de archivos...
+2025-08-07 17:23:55 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:23:55 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:23:55 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-07 17:23:55 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:24:41 [INFO] Iniciando monitor de archivos...
+2025-08-07 17:24:41 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:24:42 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-07 17:24:42 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-07 17:24:42 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-08 08:41:10 [INFO] Detectado archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-08 08:41:11 [INFO] 11583 registros insertados en tabla 'alarma_asignacion_tangibles' desde archivo: ASIGNACION_TANGIBLES_RV_20250807.csv
+2025-08-08 08:41:11 [INFO] Procedimiento ejecutado: sp_update_resumen_simcard2 con parámetro: N/A
+2025-08-08 08:41:11 [INFO] Archivo procesado correctamente: ASIGNACION_TANGIBLES_RV_20250807.csv

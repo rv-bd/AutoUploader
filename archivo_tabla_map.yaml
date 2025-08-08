@@ -1,0 +1,286 @@
+KPI_DEALER_RV:
+  tabla: kpisdealer
+  tipo_insercion: INSERT
+  mapeo_columnas:
+    PERIODO: PERIODO
+    DMS_TER: DMS_TER
+    ID_ETY_PADRE: ID_ETY_PADRE
+    ETY_PADRE: ETY_PADRE
+    ID_ETY: ID_ETY
+    DISTRIBUIDOR: DEPARTAMENTO
+    ID_IN_PLTF: ID_IN_PLTF
+    DESC_GRP: DESC_GRP
+    ID_KPI_PADRE: ID_KPI_PADRE
+    KPI_PADRE: KPI_PADRE
+    ID_KPI: ID_KPI
+    DESC_KPI: DESC_KPI
+    UNIDAD: UNIDAD
+    PESO: PESO
+    META: META
+    EJECUTADO: EJECUTADO
+    CUMPLIMIENTO: CUMPLIMIENTO
+    RESULTADO: RESULTADO
+    CLC_FRCST: CLC_FRCST
+    CLC_RSLT: CLC_RSLT
+    CLC_FLFMT: CLC_FLFMT
+    MIN_CUMPLIMIENTO: MIN_CUMPLIMIENTO
+    MAX_CUMPLIMIENTO: MAX_CUMPLIMIENTO
+    UDT_DT: UDT_DT
+    CERRADO: CERRADO
+  columnas_calculadas:
+    FECHA_ACTUALIZADO:
+      tipo: fecha_de_sistema
+      formato_fecha: '%Y-%m-%d'
+  procedimientos: []
+
+TMY_CASHIN_BPAYMT:
+  tabla: cashin
+  tipo_insercion: INSERT
+  mapeo_columnas:
+    PARTICION: cashinParticion
+    TELEFONO: cashinTelefono
+    ESTADO: cashinEstado
+    ID_DMS: cashinIdDms
+    FECHA_PROCESO: cashinFecha
+    BALANCE: cashinBalance
+    TRX_CASHIN: cashinTrxCashin
+    MONTO_CASHIN: cashinMontoCashin
+    TRX_CASHOUT: cashinTrxCashout
+    MONTO_CASHOUT: cashinMontoChashOut
+    TRX_REVERSION: cashinTrxReversion
+    MONTO_REVERSION: cashinMontoReversion
+    TRX_SERV_PUB: cashinTrxServerPub
+    MONTO_SERV_PUB: cashinMontoServePub
+    TRX_FACT_TIGO: cashinTrxFactTigo
+    MONTO_FACT_TIGO: cashinMontoFactTigo
+    TRX_COLECTURIAS: cashinTrxColecturias
+    MONTO_COLECTURIAS: cashinMontoColecturias
+    ID_DEALER: cashinIdDelear
+    NOMBRE_DEALER: cashinNombreDelear
+    ID_SUCURSAL: cashinIdSucursal
+    NOMBRE_SUCURSAL: cashinNombreSucursal
+    NOMBRE_PDV: cashinNombrePdv
+    NOMBRE_CIRCUITO: cashinNombreCircuito
+    TERRITORIO: cashinTerritorio
+    ZONA: cashinZona
+    DEPARTAMENTO: cashinDepartamento
+    MUNICIPIO: cashinMunicipio
+    CANAL: cashinCanal
+    SUB_CANAL: cashinSubCanal
+    FECHA_ACTUALIZADO: cashinFechaActualizado
+  borrar_antes_de_insertar:
+    columna_csv: PARTICION
+    columna_mysql: cashinParticion
+  procedimientos: 
+    - nombre: Insert_Resumen_tmy
+      usa_parametro: true
+    - nombre: UpdateMicroTigoMoney
+      usa_parametro: true
+
+ASIGNACION_TANGIBLES_RV:
+  tabla: alarma_asignacion_tangibles
+  tipo_insercion: IGNORE
+  mapeo_columnas:
+    SERIE: SERIE
+    MODELO: MODELO
+    DESCRIPCION_MODELO: DESCRIPCION_MODELO
+    FECHA_PDV: FECHA_PDV
+    ID_PDV: ID_PDV
+    NOMBRE_VENDEDOR: NOMBRE_VENDEDOR
+    NOMBRE_SUCURSAL: NOMBRE_SUCURSAL
+    CIRCUITO: CIRCUITO
+    MUNICIPIO: MUNICIPIO
+    DEPARTAMENTO: DEPARTAMENTO
+    TANGIBLE: TANGIBLE
+  columnas_calculadas:
+    FECHA_PDV:
+      tipo: fecha_desde_columna
+      desde: FECHA_PDV
+      formato_columna: '%d/%b/%Y'
+      formato_salida: '%Y-%m-%d'
+    Periodo:
+      tipo: fecha_desde_columna
+      desde: FECHA_PDV
+      dependiente: true
+      formato_columna: '%Y-%m-%d'
+      formato_salida: '%Y%m'
+  procedimientos: 
+    - nombre: sp_update_resumen_simcard2
+      usa_parametro: false
+
+GROSS_TMY:
+  tabla: alarma_gross_tmy
+  tipo_insercion: REPLACE
+  mapeo_columnas:
+    FCT_DT: FCT_DT
+    PERIODO: Periodo
+    CANAL: Canal
+    SUB_CANAL: SubCanal
+    DEPARTAMENTO: Departamento
+    MUNICIPIO: Municipio
+    ID_DEALER: IdDealer
+    NOMBRE_DEALER: NombreDealer
+    ID_SUCURSAL: IdSucursal
+    NOMBRE_SUCURSAL: NombreSucursal
+    NOMBRE_CIRCUITO: Circuito
+    SEGMENTO_PDV: Segmento
+    ID_PDV: IdPdv
+    NOMBRE_PDV: NombrePdv
+    CANTIDAD: Cantidad
+  columnas_calculadas:
+    FechaActualizado:
+      tipo: fecha_desde_columna
+      desde: FCT_DT
+      formato_columna: '%Y%m%d'
+      formato_salida: '%Y-%m-%d'
+      dias_a_restar: 1
+  procedimientos: 
+    - nombre: sp_update_resumen_simcard2
+      usa_parametro: false
+
+PDA_SMART:
+  tabla: pdasmart
+  tipo_insercion: INSERT
+  mapeo_columnas:
+    ANOMES: Periodo
+    DEPARTAMENTO: Departamento
+    ID_DEALER: Id_Dealer
+    NOMBRE_DEALER: Nombre_Dealer
+    ID_PDV: IdDMS
+    TELEFONO_PDA: TelefonoPDA
+    NOMBRE_PDV: NombrePDV
+    TRAMA_ACT_CANT: Registro
+    CANT_ASIGN: Asigno
+    CIRCUITO: Circuito
+    ID_SUCURSAL: IdSucursal
+    NOMBRE_SUCURSAL: Sucursal
+    VALIDO: Valido
+  borrar_antes_de_insertar:
+    columna_csv: ANOMES
+    columna_mysql: Periodo
+  columnas_calculadas:
+    Dia:
+      tipo: fecha_de_sistema
+      formato_fecha: '%d'
+      dias_a_restar: 1
+
+GROSS_PREPAGO:
+  tabla: grossprepago
+  tipo_insercion: IGNORE
+  mapeo_columnas:
+    PARTICION: grossPrepagoParticion
+    ANOMES_ACTIVACION: grossPrepagoAnomesActivacion
+    FECHA_ACTIVACION: grossPrepagoFechaActivacion
+    FECHA_CREACION: grossPrepagoFechaCreacion
+    TELEFONO: grossPrepagoTelefono
+    ANEXO: grossPrepagoAnexo
+    TIPO_PRODUCTO: grossPrepagoTipoProducto
+    TECNOLOGIA: grossPrepagoTecnologia
+    COS: grossPrepagoCos
+    TELEFONO_PDA: grossPrepagoTelefonoPda
+    CODIGO_OTA_AS400: grossPrepagoCodigoOtaAs400
+    CODIGO_OTA_DMS: grossPrepagoCodigoOtaDms
+    ID_PDV: grossPrepagoIdPdv
+    NOMBRE_PDV: grossPrepagocNombrePdv
+    ID_SUCURSAL: grossPrepagoIdSucursal
+    NOMBRE_SUCURSAL: grossPrepagoNombreSucursal
+    ID_DEALER: grossPrepagoIdDealer
+    NOMBRE_DEALER: grossPrepagoNombreDealer
+    NOMBRE_TERRITORIO_ANEXO: grossPrepagoNombreTerritorioAnexo
+    NOMBRE_DEPARTAMENTO_ANEXO: grossPrepagoNombreDepartamentoAnexo
+    NOMBRE_MUNICIPIO_ANEXO: grossPrepagoNombreMunicipioAnexo
+    CANT_OTA: grossPrepagoCantOta
+    ESTADO: grossPrepagoEstado
+    TERRITORIO_DMS: grossPrepagoTerritorioDms
+    DEPARTAMENTO_DMS: grossPrepagoDepartamentoDms
+    MUNICIPIO_DMS: grossPrepagoMunicipioDms
+    NOMBRE_CIRCUITO: grossPrepagoNombreCircuito
+    OTAS_X_TERRITORIO: grossPrepagoOtasPorTerritorio
+    CANAL: grossPrepagoCanal
+    BYPASS: grossPrepagoBypass
+    ANOMES_BYPASS: grossPrepagoAnomesBypass
+    FECHA_BYPASS: grossPrepagoFechaBypass
+    ANEXOS_DOCUMENTADOS: grossPrepagoAnexoDocumento
+    NIVEL_PAGO: grossPrepagoNivelPago
+    ANOMES_COMISION: grossPrepagoAnomesComision
+    COMISIONA: grossPrepagoComisiona
+    GROSS_CON_VAS: grossPrepagoGrossConVas
+    SUB_CANAL: grossPrepagoSubCanal
+    BU: grossPrepagoBu
+    STYPE_ACTUAL_TEL: grossPrepagoStypeActualTel
+    NUMERO_DOC: grossPrepagoNumeroDoc
+    GROSS_CON_TMY: grossPrepagoGrossConTmy
+    PDV_EPIN_ACTIVO: grossPrepagoPdvEpinActivo
+    GROSS_CON_CARGA: grossPrepagoGrossConCarga
+    VALOR_GRS_CARGA: grossPrepagoValorGrsCarga
+    VIEJO_TERR: grossPrepagoViejoTerr
+    ANX_CMSN_ADLNTDA: grossPrepagoAnxCmsnAdlntda
+    GROSS_CON_VAS_NUEVO: grossPrepagoGrossConVasNuevo
+    GROSS_DEEZER_ASCD: grossPrepagoGrossDeezerAscd
+    GROSS_DEEZER_APRVSN: grossPrepagoGrossDeezerAprvsn
+    TIPO_ACTIVACION: grossPrepagoTripoActivacion
+    GROSS_CON_WELCOME_PACK: grossPrepagoGrossConWelcomePack
+    TIPO_APARATO: grossPrepagoTipoAparato
+    TIPO_USIM: grossPrepagoTipoUsim
+    CANAL_LPA: grossPrepagoCanalLpa
+    SUBCANAL_LPA: grossPrepagoSubcanalLpa
+    TERRITORIO_LPA: grossPrepagoTerritorioLpa
+    ZONA_LPA: grossPrepagoZonaLpa
+    ZONA: grossPrepagoZona
+    ICC: grossPrepagoIcc
+  columnas_calculadas:
+    grossPerpagoFechaActivacion2:
+      tipo: fecha_desde_columna
+      desde: FECHA_ACTIVACION
+      formato_columna: '%d-%b-%Y'
+      formato_salida: '%Y-%m-%d'
+    grossPrepagoFechaCreacion2:
+      tipo: fecha_desde_columna
+      desde: FECHA_CREACION
+      formato_columna: '%d-%b-%Y'
+      formato_salida: '%Y-%m-%d'
+  borrar_antes_de_insertar:
+    columna_csv: ANOMES_ACTIVACION
+    columna_mysql: grossPrepagoAnomesActivacion
+  procedimientos: 
+    - nombre: Insert_Resumen_Gross
+      usa_parametro: true
+    - nombre: Insert_Resumen_Gross_Sucursal
+      usa_parametro: true
+    - nombre: Insert_Resumen_Gross_Departamento
+      usa_parametro: true
+    - nombre: Insert_Resumen_Gross_Vendedor
+      usa_parametro: true
+    - nombre: Insert_Resumen_Gross_Diario
+      usa_parametro: true
+
+SELL_IN:
+  tabla: sellin
+  tipo_insercion: INSERT
+  mapeo_columnas:
+    PERIODO: Periodo
+    FECHA: Fecha
+    CANAL: Canal
+    ID_PDV: Id_Pdv
+    NOMBRE_PDV: Nombre_Pdv
+    ID_DEALER: Id_Dealer
+    NOMBRE_DEALER: Nombre_Dealer
+    id_sucursal: Id_Sucursal
+    nombre_sucursal: Nombre_Sucursal
+    DEPARTAMENTO: Departamento
+    MUNICIPIO: Municipio
+    CIRCUITO: Circuito
+    MOVIL: Movil
+    MONTO_LPS: Monto_LPS
+    MONTO_USD: Monto_USD
+  borrar_antes_de_insertar:
+    columna_csv: PERIODO
+    columna_mysql: Periodo
+  columnas_calculadas:
+    DIA:
+      tipo: fecha_de_sistema
+      formato_fecha: '%d'
+      dias_a_restar: 1
+  procedimientos: 
+    - nombre: spUpdateResumenSellinPdv
+      usa_parametro: true
